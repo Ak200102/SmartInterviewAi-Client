@@ -7,7 +7,7 @@ import { useEffect } from 'react'
 import axios from 'axios'
 import { useDispatch } from 'react-redux'
 import { setUserData } from './redux/userSlice.js'
-import InterviewHistory from './pages/interviewHistory.jsx'
+import InterviewHistory from './pages/InterviewHistory.jsx'
 import Pricing from './pages/Pricing.jsx'
 import InterviewReport from './pages/InterviewReport.jsx'
 export const ServerUrl = import.meta.env.VITE_SERVER_URL
